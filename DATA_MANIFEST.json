@@ -1,0 +1,33 @@
+{
+  "project": "FLARE-X",
+  "version": "2.1.0",
+  "inputs": [
+    {
+      "path": "frontend/flame.html",
+      "bytes": 605094,
+      "sha256": "608f01c76728ce3a28015ae0aec01be471921a0abbdb9d814a0a3e494c9d1055"
+    },
+    {
+      "path": "backend/data/source_workbook.xlsx",
+      "bytes": 45909,
+      "sha256": "34e42fe73dab90946a6feaa4beae9edde4b56ef881772c36d8add6fd11a8f95f"
+    },
+    {
+      "path": "backend/data/flame_research.json",
+      "bytes": 148779,
+      "sha256": "76f6e1f181df3f57017cb5bd1bd2782cfbea830434c555ad885f52d7e6a7cc5a"
+    },
+    {
+      "path": "backend/data/investigation_catalogue.json",
+      "bytes": 85831,
+      "sha256": "6baad653289a933ecdac009b01872f4d9847db5f37a8cb728ee8f75fbe3bdf9e"
+    },
+    {
+      "path": "backend/data/prevention_database.json",
+      "bytes": 126314,
+      "sha256": "454fd09cf7815a40868c65a6660df0fab44bbecf680d0407be1ed95ac27f0b19"
+    }
+  ],
+  "scope_note": "Hashes identify exact local input files used by this package. Dataset JSON was extracted from the latest supplied frontend; workbook is the supplied Rocket_Accident_Fire_Safety_Dataset(1).xlsx.",
+  "change_note": "Removed standalone Coverage, Partial gravity and Appendix sections and prevention coverage matrix; preserved core modules."
+}
